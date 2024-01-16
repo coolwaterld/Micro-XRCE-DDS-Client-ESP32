@@ -1,0 +1,3 @@
+[submodule "microcdr"]
+	path = microcdr
+	url = https://github.com/eProsima/Micro-CDR.git

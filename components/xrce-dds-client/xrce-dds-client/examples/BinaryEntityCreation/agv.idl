@@ -1,0 +1,20 @@
+struct OIE_Time
+{
+    int32 sec;
+    uint32 nanosec;
+};
+struct Distance{
+    @Key string publicName;
+    @Key string system;
+    uint32 quality;
+    OIE_Time timeStamp;
+    long angle;  
+    double distance;
+};
+struct TrackSpeed{
+    @Key string publicName;
+    @Key string system;
+    uint32 quality;
+    OIE_Time timeStamp;
+    double speedPercent;
+};
