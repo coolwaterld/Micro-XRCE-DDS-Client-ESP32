@@ -1,10 +1,10 @@
 # Micro-XRCE-DDS-Client-ESP32
 
-This is a ESP_IDF project(vscode + idf_explorer). I tested on ESP32S3 (but also works for ESP32, ESP32S2,ESP32C3...).
+This is a ESP_IDF project(vscode + idf_explorer). I tested on ESP32S3,ESP32, ESP32S2,ESP32C3.
 
 It must work with https://github.com/coolwaterld/Micro-XRCE-DDS-Agent.
 
-I learned component structues from https://github.com/raveious/esp-xrce-dds-client and https://github.com/raveious/esp-microcdr, but updated to latest Micro-DDS-XRCE.
+I learned component structues from https://github.com/raveious/esp-xrce-dds-client and https://github.com/raveious/esp-microcdr, but updated to latest Micro-DDS-XRCE and supported binary creation method beside xml and ref.
 
 I learn application structure from  exmaples of esp-idf/examples/protocols/sockets/udp_client and Micro-XRCE-DDS-Client/examples/BinaryEntityCreation.
 
